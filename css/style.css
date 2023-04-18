@@ -1,0 +1,386 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar {
+    background-color: #D40d10;
+    height: 85px;
+    align-content: center;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        height: 60px;
+    }
+}
+
+.brand{
+    padding-top: 14px;
+    text-transform: uppercase;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 42px;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .brand{
+        font-size: 30px;
+    }
+}
+@media (max-width: 576px) {
+    .brand{
+        padding-left: 35px;
+    }
+}
+
+.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+div.container-fluid .small-menu{
+    position: absolute;
+}
+
+div.container-fluid a.nav-drop-small{
+    color: white;
+    border: 1px solid white;
+    background: #D40d10;
+    font-family: "Helvetica";
+    font-weight: bold;
+}
+
+div.container-fluid a.nav-drop-small:hover{
+    background-color: white;
+    color: black;
+}
+
+div.container-fluid a.nav-drop-small:focus{
+    background-color: white;
+    color: black;
+}
+
+div.container-fluid a.nav-drop{
+    color: white;
+    border: 1px solid white;
+    background: #D40d10;
+    font-family: "Helvetica";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.container-fluid a.nav-drop:hover{
+    background-color: white;
+    color: black;
+}
+
+div.container-fluid a.nav-drop:focus{
+    background-color: white;
+    color: black;
+}
+
+.navbar2{
+    background-color: black;
+    height: 22px;
+    text-transform: uppercase;
+}
+
+
+.search-floater{
+    float: left;
+    position: relative;
+    top: 46px;
+    left: 20px;
+    font-size: 26px;
+    color: lightgrey;
+}
+
+.form-style{
+    max-width: 1100px;
+}
+
+
+.form-group .input-style{
+    border-radius: 50px;
+    border: 2px solid lightgrey;
+    height: 65px;
+    width: 100%;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: lightgrey;
+    font-size: 17px;
+}
+
+.form-group .input-style:focus{
+    border: 2px solid black;
+    box-shadow: none;
+}
+
+.form-group .search-button{
+    border-radius: 50px;
+    border: 1px solid #D40d10;
+    background-color: #D40d10;
+    width: 85%;
+    margin-top: 22px;
+    height: 65px;
+}
+
+.form-group .span-search{
+    color: white;
+    font-weight: bold;
+    font-family: "Calibri";
+    font-size: 20px;
+
+}
+
+.form-group .search-button:hover{
+    background-color: #d42e31;
+}
+
+.email{
+    color: white;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.search{
+    color: white;
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+
+
+.date{
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.signup{
+    border-top: 3px solid black;
+}
+
+.trending{
+    border: 1px solid lightgrey;
+}
+
+.top{
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 80px;
+    color: #D40d10;
+    text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+    .top{
+        font-size: 50px;
+    }
+}
+
+.small-h2{
+    text-align: left;
+    font-family: "Arial Black";
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.h2-clickable{
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.h2-clickable:hover{
+    color: #D40d10;
+}
+
+.news{
+    margin-top: 30px;
+    border-top: 2px solid black;
+}
+
+.ending-colum{
+    border-top: 2px solid black;
+    border-bottom: 1px solid lightgrey;
+}
+
+div.container-fluid a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.c-main{
+    max-width: 1100px;
+}
+
+.c-nav-main{
+    max-width: 1300px;
+}
+
+.red-p{
+    margin: auto;
+    font-family: "Arial";
+    color: #D40d10;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list-text{
+    font-family: "helvetica";
+    font-size: 15px;
+    color: dimgrey;
+
+}
+
+.red-p-border{
+    margin: auto;
+    font-family: "Arial";
+    color: #D40d10;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+
+.floater{
+    float: right;
+    position: relative;
+    bottom: 66px;
+}
+
+.floater-text{
+    float: right;
+    position: relative;
+    bottom: 37px;
+}
+
+.red-h2{
+    text-align: left;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 18px;
+    color: #D40d10;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.small-p{
+    text-align: left;
+    font-family: "Arial Black";
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.small-p2{
+    text-align: left;
+    font-family: "Arial";
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+
+.r-border{
+    padding-top: 20px;
+}
+
+.big{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.colum2-h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.colum212-h1{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.colum2-p{
+    font-size: 18px;
+    color: dimgrey;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.colum2-border{
+    border-right: 1px solid #ccc;
+}
+
+.colum2-inv-border{
+    border-left: 1px solid #ccc;
+}
+
+.big-trending{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 6px solid #D40d10;
+    display: inline-block;
+    line-height: 1;
+
+}
+
+.red-line{
+    border-top: 10px solid #D40d10;
+    margin-top: -5px;
+    margin-left: -20px;
+    margin-right: 180px;
+}
+
+.another-red-line{
+    border-top: 10px solid #D40d10;
+    margin-top: -5px;
+    margin-left: -20px;
+    margin-right: 120px;
+}
+
+.text-red{
+    color: #D40d10;
+}
+
+.big-border{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.c-margin{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .colum2-border {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .colum2-inv-border {
+        border: none;
+    }
+}
+
+.i-border{
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .i-border {
+        border: none;
+    }
+}
